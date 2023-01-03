@@ -13,7 +13,7 @@ El script se divide en tres partes principales:
 La versión de la clase **Metadata** tiene métodos equivalentes a cada una de estas tres partes. El método **CreateMetadata** se encarga de obtener el inventario de columnas de cada sheet, el método **GetRalationsDatasets** se encarga de obtener las relaciones de datos entre los sheets y el método **SaveMetadata** se encarga de procesar y guardar los resultados obtenidos en los métodos anteriores.
  ### Ejemplo
 
- Para utilizar la clase ProductoNoConformeETL, primero deberías importarla en tu script:
+ Para utilizar la clase Metadata, primero deberías importarla en tu script:
 ```python
 from metadataCreator import Metadata
 ```
